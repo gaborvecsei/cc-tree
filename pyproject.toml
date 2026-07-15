@@ -1,0 +1,20 @@
+[project]
+name = "cc-tree"
+version = "0.1.0"
+description = "Visualize Claude Code session branch trees"
+requires-python = ">=3.11"
+dependencies = []
+authors = [
+  { name = "Gabor Vecsei" }
+]
+
+[project.urls]
+Homepage = "https://github.com/gaborvecsei/cc-tree"
+Source = "https://github.com/gaborvecsei/cc-tree"
+
+[project.scripts]
+cc-tree = "cc_tree:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
