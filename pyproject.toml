@@ -9,7 +9,7 @@ authors = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/gaborvecsei/cc-tree"
+Homepage = "https://gaborvecsei.com"
 Source = "https://github.com/gaborvecsei/cc-tree"
 
 [project.scripts]
